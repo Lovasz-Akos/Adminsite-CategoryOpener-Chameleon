@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name           Adminsite
 // @description    Category opener for chameleon admin site
-// @version        1.9
-// @downloadURL    https://gist.github.com/Lovasz-Akos/41cfe0e2cb742635b0819b157b3f0d5f/raw/f5106c733a91bebab1be1780fe01186dd9dab334/chameleon.user.js
-// @updateURL      https://gist.github.com/Lovasz-Akos/41cfe0e2cb742635b0819b157b3f0d5f/raw
+// @version        2.0
+// @downloadURL    https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
+// @updateURL      https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
 // @match          https://admin.cloud.chameleon-smarthome.com/*
 // @grant          GM.xmlHttpRequest
 // @grant          GM_xmlhttpRequest
