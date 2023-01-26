@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Adminsite
 // @description    Category opener for chameleon admin site
-// @version        2.3
+// @version        2.5
 // @downloadURL    https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
 // @updateURL      https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
 // @match          https://admin.cloud.chameleon-smarthome.com/*
@@ -18,11 +18,18 @@
 // @run-at         document-end
 // ==/UserScript==
 
-var zNode = document.createElement("div");
-zNode.innerHTML =
-  '<button id="myButton" type="button">' + "Open/Close all categories</button>";
-zNode.setAttribute("id", "myContainer");
-document.body.appendChild(zNode);
+
+if (
+  window.location.href ===
+  "https://admin.cloud.chameleon-smarthome.com/#/homes"
+) {
+  var zNode = document.createElement("div");
+  zNode.innerHTML =
+    '<button id="myButton" type="button">' + "Open/Close all categories</button>";
+  zNode.setAttribute("id", "myContainer");
+  document.body.appendChild(zNode);
+}
+
 
 //--- Activate the newly added button.
 document
