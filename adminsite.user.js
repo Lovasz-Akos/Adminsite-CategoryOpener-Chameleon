@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Adminsite
 // @description    Category opener for chameleon admin site
-// @version        2.5
+// @version        2.6
 // @downloadURL    https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
 // @updateURL      https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
 // @match          https://admin.cloud.chameleon-smarthome.com/*
@@ -21,7 +21,7 @@
 
 if (
   window.location.href ===
-  "https://admin.cloud.chameleon-smarthome.com/#/homes"
+  "https://admin.cloud.chameleon-smarthome.com/#/homes" || "adminca.cloud.chameleon-smarthome.com/#/homes" || "techforcecoadmin.chameleon.sh/#/homes"
 ) {
   var zNode = document.createElement("div");
   zNode.innerHTML =
@@ -40,7 +40,7 @@ function ButtonClickAction(zEvent) {
   if (document.getElementsByClassName("btn btn-info ng-binding")[0] != null) {
     if (
       window.location.href ===
-      "https://admin.cloud.chameleon-smarthome.com/#/homes"
+      "https://admin.cloud.chameleon-smarthome.com/#/homes" || "adminca.cloud.chameleon-smarthome.com/#/homes" || "techforcecoadmin.chameleon.sh/#/homes"
     ) {
       for (
         let i = 0;
