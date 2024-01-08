@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name           Adminsite
 // @description    Category opener for chameleon admin site
-// @version        2.7
+// @version        2.8
 // @downloadURL    https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
 // @updateURL      https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
-// @match          https://admin.cloud.chameleon-smarthome.com/*
+// @match          https://admin.cloud.chameleon-smarthome.com/#/homes
 // @match          https://adminca.cloud.chameleon-smarthome.com/#/homes
 // @grant          GM.xmlHttpRequest
 // @grant          GM_xmlhttpRequest
