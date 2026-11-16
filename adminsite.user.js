@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Adminsite
 // @description    Category opener for chameleon admin site
-// @version        2.9
+// @version        2.10
 // @downloadURL    https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
 // @updateURL      https://github.com/Lovasz-Akos/Adminsite-CategoryOpener-Chameleon/raw/master/adminsite.user.js
 // @match          https://admin.cloud.chameleon-smarthome.com/*
@@ -103,5 +103,12 @@ GM_addStyle(`
   #myContainer p {
       color:                  red;
       background:             white;
+  }
+  table {
+    border-collapse: collapse !important;
+  }
+  table th,
+  table td {
+    border: 1px solid #999 !important;
   }
 `);
